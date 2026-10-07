@@ -385,7 +385,7 @@
         "venue": "Proceedings of CHI '25",
         "publisher": "ACM"
       },
-      "themes": ["ai-design-practice", "iteration-reflection"],
+      "themes": ["ai-design-practice", "iteration-reflection", "sustainability"],
       "methods": ["qualitative"],
       "annotation": "Khan and colleagues investigate how professional UI/UX designers perceive and use AI tools specifically during divergent thinking phases through semi-structured interviews with 19 professionals. They identify four roles AI plays but also critical tensions: the 'lo-fi/hi-fi dichotomy is becoming blurry' as AI tools push toward high-fidelity outputs prematurely, constraining early-stage exploration. Participants express concern that 'overemphasizing automation and efficiency could also lead to solutions that shortcut exploration, ultimately stifling creativity.' This documents designers' own concerns about AI undermining genuine iteration through premature fidelity, and uniquely notes 'overlooked ethical issues, such as... the environmental impact of those models.'",
       "crossReferences": ["li-2024-ux-perceptions", "palani-2024-evolving"]
@@ -426,7 +426,7 @@
         "title": "Vibe coding for UX design: Understanding UX professionals' perceptions of AI-assisted design and development",
         "venue": "arXiv:2509.10652"
       },
-      "themes": ["ai-design-practice", "workflow-collaboration"],
+      "themes": ["ai-design-practice", "workflow-collaboration", "sustainability"],
       "methods": ["qualitative"],
       "annotation": "Li and colleagues map a four-stage 'vibe coding' workflow through semi-structured interviews with 20 UX professionals. They identify a critical 'productivity paradox': speed gains encouraged taking on more work without improving outcomes, with teams settling for first-draft outputs rather than exploring deeper solutions—'It's easy to stop at the easy answer instead of pushing for depth.' They find AI codebases 'tended to become bloated over time' generating redundant or unnecessary code, and that confidence in AI outputs 'has been shown to reduce critical thinking, shifting cognitive engagement away from deep reasoning toward verification and integration.' This directly documents the productivity paradox and shallow creativity resulting from AI iteration, with the bloated codebases finding paralleling dark data concerns.",
       "crossReferences": ["li-2024-ux-perceptions", "varanasi-2025-rivalry"]
@@ -558,7 +558,7 @@
         "volume": "122",
         "pages": "707-712"
       },
-      "themes": ["sustainability"],
+      "themes": ["sustainability", "ai-design-practice"],
       "methods": ["case-study"],
       "annotation": "Berthelot and colleagues from INRIA and École Normale Supérieure de Lyon propose a comprehensive Life Cycle Assessment (LCA) methodology for evaluating the environmental impact of generative AI services, validated through a case study of Stable Diffusion. They find that one year of Stable Diffusion service generates approximately 360 tons of CO2 equivalent, impacts metal scarcity equivalent to producing 5,659 smartphones, and consumes 2.48 gigawatt-hours of energy. Critically, end-user terminals represent over 90% of impact on metal scarcity, and they warn against 'carbon tunnel vision'—focusing only on emissions while ignoring metal depletion and full energy footprint. This quantifies the environmental cost of AI generation at scale, providing concrete evidence for the sustainability dimension of unlimited iteration.",
       "crossReferences": ["wu-2021-sustainable-ai", "xiao-2025-pathways"]
@@ -587,7 +587,7 @@
         "title": "Environmental burden of United States data centers in the artificial intelligence era",
         "venue": "arXiv preprint arXiv:2411.09786"
       },
-      "themes": ["sustainability"],
+      "themes": ["sustainability", "ai-design-practice"],
       "methods": ["empirical"],
       "annotation": "Guidi and coauthors at Harvard T.H. Chan School of Public Health compiled detailed operating data on 2,132 US data centers between September 2023 and August 2024 to estimate electricity consumption, generation sources, and attributable emissions. Using a generation-weighted attributional method, they find data centers consumed 192.64 TWh (4.59% of total US electricity), 56% from fossil fuels, producing 105.59 million tons of CO2e with a carbon intensity of 548 gCO2e/kWh—48% above the US national average. This offers a recent, empirically grounded baseline for the physical infrastructure costs of data storage—every AI-generated iteration has measurable carbon costs.",
       "crossReferences": ["wu-2021-sustainable-ai", "xiao-2025-pathways"]
@@ -646,7 +646,7 @@
         "title": "Sustainable AI: Environmental implications, challenges and opportunities",
         "venue": "arXiv preprint arXiv:2111.00364"
       },
-      "themes": ["sustainability"],
+      "themes": ["sustainability", "ai-design-practice"],
       "methods": ["case-study"],
       "annotation": "Wu and 25 coauthors from Facebook AI provide the first comprehensive industry analysis of AI's environmental footprint, examining Data, Algorithms, and System Hardware across the ML lifecycle. Characterizing six production ML models, they find that AI infrastructure power capacity distributes roughly 10% to experimentation, 20% to training, and 70% to inference—highlighting that inference optimization has the largest potential impact. They demonstrate that hardware-software co-design can reduce operational carbon footprint by over 800x for language models, but warn of Jevon's Paradox: despite achieving 28.5% operational energy footprint reduction over two years, overall electricity demand continues to grow because efficiency improvements stimulate additional AI use. This quantifies how AI's exponential growth in all dimensions outpaces efficiency improvements, meaning more AI iterations will consume more resources regardless of per-iteration efficiency gains.",
       "crossReferences": ["xiao-2025-pathways", "guidi-2024-burden"]
@@ -662,7 +662,7 @@
         "issue": "12",
         "pages": "1541-1553"
       },
-      "themes": ["sustainability"],
+      "themes": ["sustainability", "ai-design-practice"],
       "methods": ["empirical"],
       "annotation": "Xiao and an international team present the most comprehensive analysis to date of AI's compound environmental impacts across energy, water, and carbon emissions. They project that AI servers in the United States could generate an annual water footprint ranging from 731 to 1,125 million m³ and additional annual carbon emissions from 24 to 44 Mt CO2-equivalent between 2024 and 2030. Critically, indirect water footprint contributes 71% of total water use (from electricity generation), and they conclude that 'the AI server industry is unlikely to meet its net-zero aspirations by 2030 without substantial reliance on highly uncertain carbon offset and water restoration mechanisms.' This demonstrates that the environmental costs of AI extend beyond carbon to include water scarcity—every AI generation draws on physical resources that cannot be infinitely expanded.",
       "crossReferences": ["wu-2021-sustainable-ai", "berthelot-2024-lca"]
