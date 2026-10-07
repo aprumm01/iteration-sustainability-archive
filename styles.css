@@ -18,22 +18,22 @@
   --text-secondary: #B8BFC7;
   --text-muted: #8A929C;
 
-  /* Accent — warm amber for sustainability theme */
-  --accent: #E8B87D;
-  --accent-muted: rgba(232, 184, 125, 0.15);
-  --accent-hover: #F0C896;
+  /* Accent — cool teal for cognitive/evaluation theme */
+  --accent: #5FB8B0;
+  --accent-muted: rgba(95, 184, 176, 0.15);
+  --accent-hover: #7DCCC5;
 
-  /* Theme colors */
-  --theme-judgment: #D4A7E8;
-  --theme-iteration: #A7C4E8;
-  --theme-ai-practice: #E8B87D;
-  --theme-sustainability: #7DD3A7;
-  --theme-quality: #E8A7C4;
-  --theme-workflow: #C4E8A7;
+  /* Theme colors — cool palette with one warm contrast */
+  --theme-judgment: #B8A7E8;      /* lavender — cognitive/thinking */
+  --theme-iteration: #7CB4C4;     /* sky blue — process */
+  --theme-ai-practice: #E8C07D;   /* warm amber — AI side, intentional contrast */
+  --theme-sustainability: #5FB8B0; /* teal — environmental */
+  --theme-quality: #C4A7D4;       /* soft violet */
+  --theme-workflow: #A7D4C4;      /* mint */
 
   /* Links */
-  --link: #A7C4E8;
-  --link-hover: #C4D8F0;
+  --link: #7CB4C4;
+  --link-hover: #A0D0DC;
 
   /* Typography */
   --font-serif: 'Fraunces', Georgia, 'Times New Roman', serif;
@@ -280,35 +280,35 @@ body.drawer-open {
   transition: all var(--transition);
 }
 
-/* Theme-specific colors */
+/* Theme-specific colors — updated for cool teal palette */
 .tag.theme[data-theme="design-judgment"] {
   color: var(--theme-judgment);
-  background: rgba(212, 167, 232, 0.12);
+  background: rgba(184, 167, 232, 0.12);
 }
 
 .tag.theme[data-theme="iteration-reflection"] {
   color: var(--theme-iteration);
-  background: rgba(167, 196, 232, 0.12);
+  background: rgba(124, 180, 196, 0.12);
 }
 
 .tag.theme[data-theme="ai-design-practice"] {
   color: var(--theme-ai-practice);
-  background: rgba(232, 184, 125, 0.12);
+  background: rgba(232, 192, 125, 0.12);
 }
 
 .tag.theme[data-theme="sustainability"] {
   color: var(--theme-sustainability);
-  background: rgba(125, 211, 167, 0.12);
+  background: rgba(95, 184, 176, 0.12);
 }
 
 .tag.theme[data-theme="design-quality"] {
   color: var(--theme-quality);
-  background: rgba(232, 167, 196, 0.12);
+  background: rgba(196, 167, 212, 0.12);
 }
 
 .tag.theme[data-theme="workflow-collaboration"] {
   color: var(--theme-workflow);
-  background: rgba(196, 232, 167, 0.12);
+  background: rgba(167, 212, 196, 0.12);
 }
 
 .tag.method {

@@ -63,37 +63,37 @@
       "id": "design-judgment",
       "name": "Design Judgment",
       "description": "What makes evaluation valuable and why it cannot be automated",
-      "color": "#D4A7E8"
+      "color": "#B8A7E8"
     },
     {
       "id": "iteration-reflection",
       "name": "Iteration & Reflection",
       "description": "How designers learn through iterative practice and reflective engagement",
-      "color": "#A7C4E8"
+      "color": "#7CB4C4"
     },
     {
       "id": "ai-design-practice",
       "name": "AI in Design Practice",
       "description": "How generative AI tools affect design workflows and outcomes",
-      "color": "#E8B87D"
+      "color": "#E8C07D"
     },
     {
       "id": "sustainability",
       "name": "Sustainability",
       "description": "Environmental costs of digital infrastructure and AI generation",
-      "color": "#7DD3A7"
+      "color": "#5FB8B0"
     },
     {
       "id": "design-quality",
       "name": "Design Quality",
       "description": "Evaluating and assessing design outcomes",
-      "color": "#E8A7C4"
+      "color": "#C4A7D4"
     },
     {
       "id": "workflow-collaboration",
       "name": "Workflow & Collaboration",
       "description": "How teams and individuals manage design artifacts",
-      "color": "#C4E8A7"
+      "color": "#A7D4C4"
     }
   ],
   "methods": [
