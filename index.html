@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iteration & Sustainability Archive</title>
+  <meta name="description" content="A curated reading collection exploring design judgment, iteration, AI in design practice, and environmental sustainability.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h1 class="title">Iteration & Sustainability Archive</h1>
+      <p class="subtitle">The Illusion of Iteration: How Mass AI Output Undermines Design Practice and Sustainability</p>
+      <p class="description">
+        A curated reading collection for I609, exploring the relationship between design judgment,
+        evaluative practice, AI-assisted iteration, and environmental sustainability. These papers
+        examine what makes iteration valuable, how generative AI disrupts design workflows, and
+        the hidden costs of "unlimited" digital output.
+      </p>
+      <div class="meta">
+        <span><span class="paper-count" id="paper-count">0</span> papers</span>
+        <span>Last updated: October 2026</span>
+      </div>
+    </header>
+
+    <!-- Papers -->
+    <section class="papers">
+      <div class="paper-list" id="paper-list">
+        <!-- Papers rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Glossary -->
+    <section class="glossary">
+      <h2 class="section-label">Key Concepts</h2>
+      <p class="glossary-intro">
+        Central terms and frameworks from the research literature on design judgment, iteration, and sustainability.
+      </p>
+      <div class="glossary-search">
+        <input type="search" id="glossary-search" placeholder="Search concepts…" autocomplete="off">
+      </div>
+      <div class="glossary-list" id="glossary-list">
+        <!-- Glossary rendered by JS -->
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>
+        This archive supports research on design practice, AI, and sustainability for the paper
+        "The Illusion of Iteration: How Mass AI Output Undermines Design Practice and Sustainability."
+      </p>
+      <p>
+        Compiled for I609 · Indiana University · Fall 2026
+      </p>
+    </footer>
+  </div>
+
+  <!-- Drawer -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="drawer" id="paper-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <button class="drawer-close" id="drawer-close" aria-label="Close panel">
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M4 4L12 12M12 4L4 12"/>
+        </svg>
+      </button>
+    </div>
+    <div class="drawer-content" id="drawer-content">
+      <!-- Drawer content rendered by JS -->
+    </div>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>

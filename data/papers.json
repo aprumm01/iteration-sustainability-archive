@@ -1,0 +1,671 @@
+{
+  "meta": {
+    "title": "Iteration & Sustainability Archive",
+    "subtitle": "The Illusion of Iteration: How Mass AI Output Undermines Design Practice and Sustainability",
+    "description": "A curated reading collection exploring design judgment, evaluative practice, AI-assisted iteration, and environmental sustainability.",
+    "researchTopic": "How mass AI output undermines design practice and sustainability—examining how generative AI creates an illusion of productive iteration while actually undermining evaluative judgment and generating environmental costs through dark data accumulation.",
+    "lastUpdated": "2026-10-07"
+  },
+  "glossary": [
+    {
+      "term": "Evaluative Judgment",
+      "definition": "The capability to judge the quality of work of self and others. AI has widened the gap between our capability to produce work and our capability to evaluate the quality of that work (Bearman et al., 2024).",
+      "papers": ["bearman-2024-evaluative", "naik-2025-invisible", "walton-2026-judgment"]
+    },
+    {
+      "term": "Design Fixation",
+      "definition": "A cognitive phenomenon where designers become anchored to initial ideas or examples, limiting exploration of the solution space. AI outputs become new anchors through 'fixation displacement' (Wadinambiarachchi et al., 2024).",
+      "papers": ["wadinambiarachchi-2024-fixation", "wang-2026-ai4ux", "kobiella-2026-constrained"]
+    },
+    {
+      "term": "Instrumental Judgment",
+      "definition": "The capacity to choose appropriate approaches, decide among options, or create new methods when needed. Cannot be taught through methods books or prescriptive procedures but requires substantial space for experimentation and failure (Murdoch-Kitt et al., 2018).",
+      "papers": ["murdoch-kitt-2018-instrumental", "gray-2017-articulation", "holt-1997-judgment"]
+    },
+    {
+      "term": "Dark Data",
+      "definition": "Data that organizations collect and store but cannot readily analyze or understand—estimated at 80-93% of all organizational data. Creates invisible legal risks and environmental costs (Grimm, 2019).",
+      "papers": ["grimm-2019-dark-data", "sweeten-2018-hoarding", "van-bussel-2015-archiving"]
+    },
+    {
+      "term": "Reflection-in-Action",
+      "definition": "Donald Schön's concept of thinking while doing—the 'conversation with materials' where designers respond to the back-talk of the design situation. This process gets bypassed when AI generates iterations without engaging the designer's situated understanding.",
+      "papers": ["galle-2011-foundational", "stolterman-2008-practice", "lim-2008-prototypes"]
+    },
+    {
+      "term": "Cornucopian Paradigm",
+      "definition": "A worldview where the design of new services stimulates demand, which drives growth of increased infrastructure capacity, which then cycles back to enable new services in a self-perpetuating cycle. AI tools enabling unlimited iteration embody these assumptions about 'free' generation (Preist et al., 2016).",
+      "papers": ["preist-2016-cornucopian", "wu-2021-sustainable-ai", "xiao-2025-pathways"]
+    },
+    {
+      "term": "Jevons Paradox",
+      "definition": "The phenomenon where more efficient technologies often encourage greater use of a resource, reducing or eliminating expected savings. Despite efficiency gains, AI's exponential growth in all dimensions outpaces improvements (Wu et al., 2021).",
+      "papers": ["wu-2021-sustainable-ai", "xiao-2025-pathways", "berthelot-2024-lca"]
+    },
+    {
+      "term": "Additive vs. Subtractive Design",
+      "definition": "GenAI shifts design from an additive process (building iteratively from scratch) to a subtractive process (refining AI-generated drafts), resulting in more homogeneous designs and diminished fulfillment (Kobiella et al., 2026).",
+      "papers": ["kobiella-2026-constrained", "chen-2024-genui", "li-2024-ux-perceptions"]
+    },
+    {
+      "term": "Agency-Distribution Judgment",
+      "definition": "An emergent form of judgment where students conceptualize and negotiate creative responsibility with AI—whether rapid AI output constitutes genuine design iteration or offloaded cognition (Naik et al., 2025).",
+      "papers": ["naik-2025-invisible", "sandhaus-2025-codesigning", "varanasi-2025-rivalry"]
+    },
+    {
+      "term": "Good First Draft, Tough Last Mile",
+      "definition": "GenAI accelerates early-stage ideation but requires significant effort to close the gap to production-ready work. High fidelity does not equal production-ready; visual polish masks substantive gaps (Chen et al., 2024).",
+      "papers": ["chen-2024-genui", "bilgram-2023-accelerating", "zhu-2024-enterprise"]
+    }
+  ],
+  "themes": [
+    {
+      "id": "design-judgment",
+      "name": "Design Judgment",
+      "description": "What makes evaluation valuable and why it cannot be automated",
+      "color": "#D4A7E8"
+    },
+    {
+      "id": "iteration-reflection",
+      "name": "Iteration & Reflection",
+      "description": "How designers learn through iterative practice and reflective engagement",
+      "color": "#A7C4E8"
+    },
+    {
+      "id": "ai-design-practice",
+      "name": "AI in Design Practice",
+      "description": "How generative AI tools affect design workflows and outcomes",
+      "color": "#E8B87D"
+    },
+    {
+      "id": "sustainability",
+      "name": "Sustainability",
+      "description": "Environmental costs of digital infrastructure and AI generation",
+      "color": "#7DD3A7"
+    },
+    {
+      "id": "design-quality",
+      "name": "Design Quality",
+      "description": "Evaluating and assessing design outcomes",
+      "color": "#E8A7C4"
+    },
+    {
+      "id": "workflow-collaboration",
+      "name": "Workflow & Collaboration",
+      "description": "How teams and individuals manage design artifacts",
+      "color": "#C4E8A7"
+    }
+  ],
+  "methods": [
+    { "id": "theoretical", "name": "Theoretical" },
+    { "id": "empirical", "name": "Empirical Study" },
+    { "id": "qualitative", "name": "Qualitative" },
+    { "id": "mixed-methods", "name": "Mixed Methods" },
+    { "id": "review", "name": "Review/Synthesis" },
+    { "id": "case-study", "name": "Case Study" },
+    { "id": "experiment", "name": "Experiment" },
+    { "id": "legal-analysis", "name": "Legal Analysis" }
+  ],
+  "papers": [
+    {
+      "id": "boling-2020-character",
+      "citation": {
+        "authors": ["Boling, E.", "Gray, C. M.", "Smith, K. M."],
+        "year": 2020,
+        "title": "Educating for design character in higher education: Challenges in studio pedagogy",
+        "venue": "Proceedings of DRS2020",
+        "publisher": "Design Research Society"
+      },
+      "themes": ["design-judgment", "iteration-reflection"],
+      "methods": ["qualitative"],
+      "annotation": "Boling, Gray, and Smith, design educators at Indiana University, use co/autoethnographic methods to identify four 'challenge contexts' where tensions arise when educators attempt to cultivate 'design character'—the holistic development of judgment, values, ethics, and professional identity beyond technical skills. They find that students often resist the ambiguity required for developing design judgment, wanting clear procedures instead of navigating uncertain problem spaces. The article reveals that AI tools may exacerbate students' resistance to ambiguity by providing the 'clear procedures' they crave while bypassing the discomfort necessary for judgment development.",
+      "crossReferences": ["murdoch-kitt-2018-instrumental", "rutherford-2025-human-experience"]
+    },
+    {
+      "id": "cross-1982-designerly",
+      "citation": {
+        "authors": ["Cross, N."],
+        "year": 1982,
+        "title": "Designerly ways of knowing",
+        "venue": "Design Studies",
+        "volume": "3",
+        "issue": "4",
+        "pages": "221-227"
+      },
+      "themes": ["design-judgment"],
+      "methods": ["theoretical"],
+      "annotation": "Nigel Cross establishes design as a 'third culture' of education distinct from sciences and humanities, articulating the unique epistemology, methods, and values specific to design practice. Designers use solution-focused strategies (learned through education, not innate), tackle 'ill-defined' or 'wicked' problems through 'satisficing' rather than optimizing, and employ constructive (abductive) thinking distinct from inductive/deductive scientific reasoning. This foundational distinction establishes that AI-generated output lacks the evaluative judgment that defines genuine design iteration.",
+      "crossReferences": ["stolterman-2008-practice", "holt-1997-judgment"]
+    },
+    {
+      "id": "galle-2011-foundational",
+      "citation": {
+        "authors": ["Galle, P."],
+        "year": 2011,
+        "title": "Foundational and instrumental design theory",
+        "venue": "Design Issues",
+        "volume": "27",
+        "issue": "4",
+        "pages": "81-94"
+      },
+      "themes": ["design-judgment", "iteration-reflection"],
+      "methods": ["theoretical"],
+      "annotation": "Per Galle distinguishes between foundational design theory (concerning the nature and purpose of design) and instrumental design theory (conveying facts and possibilities that facilitate design practice). Synthesizing Simon's 'The Sciences of the Artificial,' Schön's 'The Reflective Practitioner,' and Krippendorff's 'The Semantic Turn,' Galle demonstrates that Simon's 'science of design' treating design as constraint satisfaction reached 'a dead end' because real design involves 'messy' problems requiring Schön's 'reflection-in-action.' This provides theoretical foundation for why AI cannot replace human evaluative judgment—Schön's 'conversation with materials' concept explains what gets bypassed when AI generates iterations without engaging the designer's situated understanding.",
+      "crossReferences": ["cross-1982-designerly", "lim-2008-prototypes"]
+    },
+    {
+      "id": "gray-2017-articulation",
+      "citation": {
+        "authors": ["Gray, C. M.", "Boling, E."],
+        "year": 2017,
+        "title": "Designers' articulation and activation of instrumental design judgements in cross-cultural user research",
+        "venue": "Design Studies"
+      },
+      "themes": ["design-judgment", "iteration-reflection"],
+      "methods": ["mixed-methods"],
+      "annotation": "Colin Gray and Elizabeth Boling analyze how designers' instrumental judgments evolve through practice, showing that judgments shift from totalizing assumptions to nuanced understanding through engagement with complexity. Using mixed methods on the DTRS11 dataset (13+ hours from a Scandinavian UX design team), they demonstrate that design methods are inherently underspecified, requiring instrumental judgment and designer interpretation rather than prescriptive following. The finding that judgments develop through engagement with complexity—shifting from stereotypes to nuance—directly contradicts the AI model of generating ready-made solutions without the judgment-building process.",
+      "crossReferences": ["murdoch-kitt-2018-instrumental", "holt-1997-judgment"]
+    },
+    {
+      "id": "holt-1997-judgment",
+      "citation": {
+        "authors": ["Holt, J. E."],
+        "year": 1997,
+        "title": "The designer's judgement",
+        "venue": "Design Studies",
+        "volume": "18",
+        "issue": "1",
+        "pages": "113-123"
+      },
+      "themes": ["design-judgment"],
+      "methods": ["theoretical"],
+      "annotation": "J. E. Holt constructs a framework for understanding design judgement drawing on Sir Geoffrey Vickers' concept of 'the art of judgement.' Holt proposes that judgements in engineering design are made across three knowledge domains—the formative (style, precedent, cultural norms), the commercial (market viability), and the instrumental (good practice, standards)—and involve three types: reality judgements, value judgements, and action judgements. Critically, Holt argues that 'good judgement is not something that can be acquired quickly' but requires intellectual and professional development over considerable time. The claim that 'the appraisal of judgement is itself an act of judgement' highlights a recursive challenge where using AI output requires judgement that may not develop if AI is over-relied upon.",
+      "crossReferences": ["cross-1982-designerly", "bearman-2024-evaluative"]
+    },
+    {
+      "id": "murdoch-kitt-2018-instrumental",
+      "citation": {
+        "authors": ["Murdoch-Kitt, K.", "Gray, C. M.", "Parsons, P.", "Toombs, A. L.", "Louw, M.", "Van Gent, E."],
+        "year": 2018,
+        "title": "Developing students' instrumental judgment capacity for design research methods",
+        "venue": "Proceedings of DECIPHER 2018"
+      },
+      "themes": ["design-judgment", "iteration-reflection"],
+      "methods": ["qualitative"],
+      "annotation": "Murdoch-Kitt, Gray, and colleagues argue that instrumental judgment—the capacity to choose appropriate approaches, decide among options, or create new methods when needed—cannot be taught through methods books or prescriptive procedures but requires substantial space for experimentation and failure. They find that UX practitioners view methods as 'more of a mindset than a method,' and that design's unique rigor lies in 'designer's character, identity, and sense of competence'—not borrowed scientific credibility. The claim that owning a design methods book does not teach judgment extends directly to AI tools—mass-generated outputs bypass the failure-and-learning cycle essential to developing instrumental judgment.",
+      "crossReferences": ["gray-2017-articulation", "boling-2020-character"]
+    },
+    {
+      "id": "stolterman-2008-practice",
+      "citation": {
+        "authors": ["Stolterman, E."],
+        "year": 2008,
+        "title": "The nature of design practice and implications for interaction design research",
+        "venue": "International Journal of Design",
+        "volume": "2",
+        "issue": "1",
+        "pages": "55-65"
+      },
+      "themes": ["design-judgment", "iteration-reflection"],
+      "methods": ["theoretical"],
+      "annotation": "Erik Stolterman argues that HCI research aimed at supporting design practice has failed because it lacks sufficient understanding of design practice and inappropriately borrows scientific methods. He proposes that design complexity is the 'designer's subjective experience of complexity'—not objectively measurable—and that designers should be 'prepared-for-action' rather than 'guided-in-action' by detailed prescriptive procedures. He notes that practitioners rely 85% on intuition and experience when interpreting data, and that designers work on 'many alternative designs in parallel in an iterative way.' The 'prepared-for-action vs. guided-in-action' distinction directly supports the argument that AI tools offering pre-formed solutions undermine the judgment-development process essential to design practice.",
+      "crossReferences": ["cross-1982-designerly", "galle-2011-foundational"]
+    },
+    {
+      "id": "bearman-2024-evaluative",
+      "citation": {
+        "authors": ["Bearman, M.", "Tai, J.", "Dawson, P.", "Boud, D.", "Ajjawi, R."],
+        "year": 2024,
+        "title": "Developing evaluative judgement for a time of generative artificial intelligence",
+        "venue": "Assessment & Evaluation in Higher Education",
+        "volume": "49",
+        "issue": "6",
+        "pages": "893-905"
+      },
+      "themes": ["design-judgment", "ai-design-practice"],
+      "methods": ["theoretical"],
+      "annotation": "Bearman and colleagues at Deakin University's CRADLE propose a framework for developing students' evaluative judgement—defined as 'the capability to judge the quality of work of self and others'—specifically for working with generative AI. Adapting five assessment strategies for AI contexts, they argue that 'AI has widened the gap between our capability to produce work, and our capability to evaluate the quality of that work.' They warn that students may cognitively offload judgement onto AI, inhibiting development of evaluative capacity. This directly supports the 'illusion of iteration' argument—when outputs appear plausible, students may skip the critical evaluation that develops judgment over time.",
+      "crossReferences": ["walton-2026-judgment", "naik-2025-invisible"]
+    },
+    {
+      "id": "lebovitz-2022-engage",
+      "citation": {
+        "authors": ["Lebovitz, S.", "Lifshitz-Assaf, H.", "Levina, N."],
+        "year": 2022,
+        "title": "To engage or not to engage with AI for critical judgments: How professionals deal with opacity when using AI for medical diagnosis",
+        "venue": "Organization Science",
+        "volume": "33",
+        "issue": "1",
+        "pages": "126-148"
+      },
+      "themes": ["design-judgment", "ai-design-practice"],
+      "methods": ["empirical", "qualitative"],
+      "annotation": "Lebovitz and colleagues introduce the concepts of 'engaged augmentation' versus 'unengaged augmentation' to explain how professionals deal with AI opacity when making critical judgments. Through an ethnographic field study over 10 months (500+ hours observation) in three diagnostic radiology departments, they find that only professionals who invest in 'AI interrogation practices'—actively probing AI claims, comparing to their own assessment—successfully integrate AI into expert judgement. In two of three departments, professionals enacted 'unengaged augmentation,' either ignoring AI outputs or blindly accepting them. This demonstrates empirically that even expert professionals struggle to exercise critical judgement over AI outputs, illustrating how AI can create an illusion of productive collaboration while circumventing evaluative judgment.",
+      "crossReferences": ["bearman-2024-evaluative", "naik-2025-invisible"]
+    },
+    {
+      "id": "lim-2008-prototypes",
+      "citation": {
+        "authors": ["Lim, Y.-K.", "Stolterman, E.", "Tenenberg, J."],
+        "year": 2008,
+        "title": "The anatomy of prototypes: Prototypes as filters and prototypes as manifestations of design ideas",
+        "venue": "ACM Transactions on Computer-Human Interaction",
+        "volume": "15",
+        "issue": "2",
+        "pages": "Article 7"
+      },
+      "themes": ["iteration-reflection", "design-quality"],
+      "methods": ["theoretical"],
+      "annotation": "Lim, Stolterman, and Tenenberg develop a theoretical framework articulating prototypes as design-thinking tools with two fundamental dimensions: filtering (what aspects of a design idea a prototype explores) and manifestation (how those aspects are externalized). They establish the 'fundamental prototyping principle'—that prototypes are purposeful reductions filtering qualities to explore specific aspects—and the 'economic principle of prototyping'—that the best prototype finds the simplest manifestation to filter qualities for design purpose. Building explicitly on Schön's reflective practice, they argue prototypes serve a generative role enabling reflection, not just evaluation. This provides theoretical grounding for what makes iteration meaningful—the filtering and economic principles suggest that productive prototyping requires purposeful reduction, not volume of output.",
+      "crossReferences": ["galle-2011-foundational", "cash-2023-coevolution"]
+    },
+    {
+      "id": "naik-2025-invisible",
+      "citation": {
+        "authors": ["Naik, S.", "Shukla, P.", "Obi, I.", "Backus, J.", "Rasche, N.", "Parsons, P."],
+        "year": 2025,
+        "title": "Tracing the invisible: Understanding students' judgment in AI-supported design work",
+        "venue": "Proceedings of Creativity and Cognition (C&C '25)",
+        "publisher": "ACM"
+      },
+      "themes": ["design-judgment", "ai-design-practice"],
+      "methods": ["qualitative"],
+      "annotation": "Naik and colleagues at Purdue identify six categories of judgment students make when using AI tools in design work, including two emergent forms: agency-distribution judgment (how students conceptualize and negotiate creative responsibility with AI) and reliability judgment (evaluating AI output trustworthiness beyond stylistic quality). Through qualitative analysis of reflections from 33 student teams (175 students), they find that the apparent 'ease' of AI generation masks substantial invisible intellectual labor required to effectively evaluate, refine, and integrate AI outputs into design work. The emergence of 'agency-distribution judgment' connects to the 'illusion of iteration' theme—students must negotiate whether rapid AI output constitutes genuine design iteration or offloaded cognition.",
+      "crossReferences": ["bearman-2024-evaluative", "walton-2026-judgment"]
+    },
+    {
+      "id": "walton-2026-judgment",
+      "citation": {
+        "authors": ["Walton, J.", "Bearman, M.", "Crawford, N.", "Tai, J.", "Boud, D."],
+        "year": 2026,
+        "title": "How university students work on assessment tasks with generative artificial intelligence: Matters of judgement",
+        "venue": "Assessment & Evaluation in Higher Education",
+        "volume": "51",
+        "issue": "6",
+        "pages": "1066-1082"
+      },
+      "themes": ["design-judgment", "ai-design-practice"],
+      "methods": ["qualitative"],
+      "annotation": "Walton and colleagues identify six distinct categories of 'judgement events' characterizing how students work with GenAI on assessment tasks, using 'scroll-back' interviews with 26 Australian undergraduate students. They reveal troubling patterns including students adopting GenAI ideas with low criticality, misjudging GenAI contributions as their own (a 'sustained misapprehension about contribution'), and submitting GenAI work without judging it. The finding that students genuinely believe they authored content that was largely AI-generated points to source amnesia that distorts self-assessment. This provides direct empirical evidence for the 'illusion of iteration' thesis—students misjudge their own contributions while outsourcing evaluation to AI.",
+      "crossReferences": ["bearman-2024-evaluative", "naik-2025-invisible"]
+    },
+    {
+      "id": "cash-2023-coevolution",
+      "citation": {
+        "authors": ["Cash, P.", "Isaksson, O.", "Maier, A.", "Summers, J. D."],
+        "year": 2023,
+        "title": "Method in their madness: Explaining how designers think and act through the cognitive co-evolution model",
+        "venue": "Design Studies",
+        "volume": "88",
+        "pages": "Article C"
+      },
+      "themes": ["iteration-reflection"],
+      "methods": ["empirical", "experiment"],
+      "annotation": "Cash and colleagues propose and empirically validate the 'cognitive co-evolution model' linking metacognitive perceived uncertainty to the co-evolution of problem and solution spaces. Through protocol analysis of 31 novice designers with Bayesian statistical modeling, they demonstrate that perceived uncertainty acts as a driver for co-evolutionary transitions (p < .001) and explains when and why designers shift between problem and solution spaces. The four types of co-evolutionary transitions are mediated by uncertainty perception. This explains the cognitive mechanism of productive iteration—uncertainty perception drives meaningful transitions, and AI may short-circuit this by providing premature certainty that forecloses genuine exploration.",
+      "crossReferences": ["lim-2008-prototypes", "dalsgaard-2025-ambiguity"]
+    },
+    {
+      "id": "dalsgaard-2025-ambiguity",
+      "citation": {
+        "authors": ["Dalsgaard, P."],
+        "year": 2025,
+        "title": "Creative ambiguity and cognitive tension in generative AI tools",
+        "venue": "Proceedings of ECCE 2025",
+        "publisher": "ACM"
+      },
+      "themes": ["iteration-reflection", "ai-design-practice"],
+      "methods": ["theoretical"],
+      "annotation": "Peter Dalsgaard theoretically reframes AI 'misalignment' as potentially productive creative friction, proposing three types of cognitive tension: motivational (prompts persistence or strategy alteration), contextual (forces reconsideration of design context), and epistemic (challenges assumptions about problem/solution). Drawing on cognitive dissonance theory and predictive processing frameworks, he argues that misalignment should be viewed as 'provocation for reflection, not error to optimize away'—similar to sketching's productive vagueness. This offers a nuanced view—some AI 'misalignment' can create productive tension, but this requires designers capable of leveraging ambiguity rather than simply accepting outputs.",
+      "crossReferences": ["cash-2023-coevolution", "wadinambiarachchi-2024-fixation"]
+    },
+    {
+      "id": "naing-2024-ux-education",
+      "citation": {
+        "authors": ["Naing, P. H."],
+        "year": 2024,
+        "title": "Generative AI in UX education: Assessing critical thinking, problem-solving, and design iteration speed",
+        "venue": "Proceedings of IEEE InCIT 2025"
+      },
+      "themes": ["iteration-reflection", "ai-design-practice"],
+      "methods": ["mixed-methods", "experiment"],
+      "annotation": "Phyo Hein Naing presents the first empirical study examining whether generative AI tools improve critical thinking, problem-solving, and design iteration speed in UX education. Through mixed methods (Phase 1 survey N=119; Phase 2 controlled experiment N=12), the study finds that AI-assisted students completed only one iteration in the time non-AI students completed two, with no statistically significant difference in SUS usability scores (AI: M=72.5 vs non-AI: M=71.67) or critical thinking scores (M=3.5 for both groups). Problem-solving was slightly lower in the AI group. This directly demonstrates the 'illusion of iteration'—while AI increases perceived iteration speed, it does not improve outcomes and may actually reduce the number of genuine design iterations.",
+      "crossReferences": ["wadinambiarachchi-2024-fixation", "kobiella-2026-constrained"]
+    },
+    {
+      "id": "wadinambiarachchi-2024-fixation",
+      "citation": {
+        "authors": ["Wadinambiarachchi, S.", "Kelly, R. M.", "Pareek, S.", "Zhou, Q.", "Velloso, E."],
+        "year": 2024,
+        "title": "The effects of generative AI on design fixation and divergent thinking",
+        "venue": "Proceedings of CHI '24",
+        "pages": "1-18",
+        "publisher": "ACM"
+      },
+      "themes": ["iteration-reflection", "ai-design-practice"],
+      "methods": ["experiment"],
+      "annotation": "Wadinambiarachchi and colleagues provide controlled empirical evidence that AI image generation (Midjourney) increases design fixation and decreases divergent thinking metrics compared to both baseline and Google Image Search conditions. Through a between-participants experiment (N=60) with Bayesian analysis, they find 100% probability of higher design fixation in the GenAI condition (Bayes Factor = 124), with lower fluency, variety, and originality. Most significantly, they identify 'fixation displacement'—the focus of fixation shifts from the initial exemplar onto AI outputs, making AI the new anchor. They also find that prompt creation itself induces fixation by 'requiring verbal commitment to a specific design direction before divergent exploration is complete.' This provides essential empirical support, demonstrating that AI undermines evaluative judgment through fixation displacement—designers mistake AI-generated novelty for genuine divergent thinking.",
+      "crossReferences": ["naing-2024-ux-education", "wang-2026-ai4ux"]
+    },
+    {
+      "id": "bilgram-2023-accelerating",
+      "citation": {
+        "authors": ["Bilgram, V.", "Laarmann, F."],
+        "year": 2023,
+        "title": "Accelerating innovation with generative AI: AI-augmented digital prototyping and innovation methods",
+        "venue": "IEEE Engineering Management Review",
+        "volume": "51",
+        "issue": "2",
+        "pages": "50-57"
+      },
+      "themes": ["ai-design-practice"],
+      "methods": ["case-study"],
+      "annotation": "Bilgram and Laarmann demonstrate through six months of experimentation how LLMs can augment early innovation phases through AI-assisted exploration, ideation, and digital prototyping. Through practitioner case studies in the automotive industry, they find that 'AI-augmented prototyping closes gap between conceptual work and testable prototypes, enabling faster iterations.' However, they note significant limitations: ideas generated 'usually appear to be a bit superficial and bland,' and human teams 'often use LLMs as a jump start in the process and build on AI-generated information, correct it, or use it as inspiration.' Despite advocating for AI acceleration, this reveals the quality gap that underlies the 'illusion of iteration'—speed gains mask substantive limitations requiring human judgment to correct.",
+      "crossReferences": ["chen-2024-genui", "zhu-2024-enterprise"]
+    },
+    {
+      "id": "chen-2024-genui",
+      "citation": {
+        "authors": ["Chen, X.", "Knearem, T.", "Li, Y."],
+        "year": 2024,
+        "title": "The GenUI study: Exploring the design of generative UI tools to support UX practitioners and beyond",
+        "venue": "Proceedings of CHI '24",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "design-quality"],
+      "methods": ["qualitative"],
+      "annotation": "Chen, Knearem, and Li investigate how different UX-related roles would adopt Generative UI tools through a week-long diary study with 37 UX-related professionals followed by semi-structured interviews. Using grounded theory analysis producing 28 high-level codes, they identify the key finding: GenUI provides 'good first draft, tough last mile'—accelerating early-stage ideation but requiring significant effort to close the gap to production-ready work. Seven critical gaps are identified preventing GenUI adoption, including problem formulation, intent assimilation, and quality/fidelity/originality issues. The 'tough last mile' concept captures the evaluative work that AI cannot perform and that designers may skip when outputs appear polished.",
+      "crossReferences": ["bilgram-2023-accelerating", "li-2024-ux-perceptions"]
+    },
+    {
+      "id": "khan-2025-beyond-automation",
+      "citation": {
+        "authors": ["Khan, A.", "Shokrizadeh, A.", "Cheng, J."],
+        "year": 2025,
+        "title": "Beyond automation: How designers perceive AI as a creative partner in the divergent thinking stages of UI/UX design",
+        "venue": "Proceedings of CHI '25",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "iteration-reflection"],
+      "methods": ["qualitative"],
+      "annotation": "Khan and colleagues investigate how professional UI/UX designers perceive and use AI tools specifically during divergent thinking phases through semi-structured interviews with 19 professionals. They identify four roles AI plays but also critical tensions: the 'lo-fi/hi-fi dichotomy is becoming blurry' as AI tools push toward high-fidelity outputs prematurely, constraining early-stage exploration. Participants express concern that 'overemphasizing automation and efficiency could also lead to solutions that shortcut exploration, ultimately stifling creativity.' This documents designers' own concerns about AI undermining genuine iteration through premature fidelity, and uniquely notes 'overlooked ethical issues, such as... the environmental impact of those models.'",
+      "crossReferences": ["li-2024-ux-perceptions", "palani-2024-evolving"]
+    },
+    {
+      "id": "kobiella-2026-constrained",
+      "citation": {
+        "authors": ["Kobiella, C.", "Schneider, L.", "Schmidt, A.", "Terzimehic, N."],
+        "year": 2026,
+        "title": "Co-constructed or constrained? How AI collaboration tools reshape UI design practice in a time-boxed design challenge",
+        "venue": "Proceedings of CHI '26",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "iteration-reflection"],
+      "methods": ["experiment"],
+      "annotation": "Kobiella and colleagues present the first controlled study of FigmaAI in mainstream UI design, examining how embedded GenAI tools affect design processes, designer reflections, and design outcomes through a within-subject experiment with 16 professional UX designers. The central finding is that GenAI shifts design from an **additive process** (building iteratively from scratch) to a **subtractive process** (refining AI-generated drafts). Think-aloud protocols and computational analysis reveal that AI-assisted designs were statistically significantly more visually and structurally homogeneous (p = .0040), and participants reported 'diminished fulfillment despite increased efficiency' and difficulty putting their 'fingerprint' on designs. This provides the clearest empirical demonstration of how AI restructures design practice away from genuine iteration toward refinement of pre-formed outputs.",
+      "crossReferences": ["wadinambiarachchi-2024-fixation", "wang-2026-ai4ux"]
+    },
+    {
+      "id": "li-2024-ux-perceptions",
+      "citation": {
+        "authors": ["Li, J.", "Cao, H.", "Lin, L.", "Hou, Y.", "Zhu, R.", "El Ali, A."],
+        "year": 2024,
+        "title": "User experience design professionals' perceptions of generative artificial intelligence",
+        "venue": "Proceedings of CHI '24",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "design-judgment"],
+      "methods": ["qualitative"],
+      "annotation": "Li and colleagues explore how UX professionals perceive GenAI through semi-structured interviews with 20 UX Designers (1-10+ years experience), yielding 415 digital statement cards analyzed through hybrid thematic analysis. Key findings include concern over 'creativity exhaustion' through GenAI output speed and homogenization, that AI 'can lead to generating numerous outputs and leave the challenge to us, humans, to choose among them,' and that junior designers 'might have fewer chances to learn the design process but, instead, they may focus on mastering AI systems.' The distinction between AI as 'interpolating' (within existing data patterns) versus human 'extrapolation' (beyond known patterns) is theoretically significant. This documents practitioner awareness of the evaluation burden created by mass AI output and skill degradation risks.",
+      "crossReferences": ["chen-2024-genui", "khan-2025-beyond-automation"]
+    },
+    {
+      "id": "li-2025-vibe-coding",
+      "citation": {
+        "authors": ["Li, J.", "Hou, Y.", "Lin, L.", "Zhu, R.", "Cao, H.", "El Ali, A."],
+        "year": 2025,
+        "title": "Vibe coding for UX design: Understanding UX professionals' perceptions of AI-assisted design and development",
+        "venue": "arXiv:2509.10652"
+      },
+      "themes": ["ai-design-practice", "workflow-collaboration"],
+      "methods": ["qualitative"],
+      "annotation": "Li and colleagues map a four-stage 'vibe coding' workflow through semi-structured interviews with 20 UX professionals. They identify a critical 'productivity paradox': speed gains encouraged taking on more work without improving outcomes, with teams settling for first-draft outputs rather than exploring deeper solutions—'It's easy to stop at the easy answer instead of pushing for depth.' They find AI codebases 'tended to become bloated over time' generating redundant or unnecessary code, and that confidence in AI outputs 'has been shown to reduce critical thinking, shifting cognitive engagement away from deep reasoning toward verification and integration.' This directly documents the productivity paradox and shallow creativity resulting from AI iteration, with the bloated codebases finding paralleling dark data concerns.",
+      "crossReferences": ["li-2024-ux-perceptions", "varanasi-2025-rivalry"]
+    },
+    {
+      "id": "palani-2024-evolving",
+      "citation": {
+        "authors": ["Palani, S.", "Ramos, G. A."],
+        "year": 2024,
+        "title": "Evolving roles, workflows and design opportunities: A study of creative practitioners interacting with and orchestrating generative AI",
+        "venue": "Proceedings of C&C '24",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "workflow-collaboration"],
+      "methods": ["mixed-methods"],
+      "annotation": "Palani and Ramos develop a comprehensive framework of how creative practitioners integrate GenAI into workflows through triangulated methodology (10 interviews, 17 YouTube videos, 31-person survey) with practitioners averaging 13.8 years experience. They identify three key challenges: articulating creative goals when GenAI struggles with nuanced domain vocabulary, lack of memory across fragmented workflows requiring repeated prompting, and difficulty aligning stochastic outputs with intent. Practitioners conceptualize their role as 'project managers' orchestrating AI across tasks. The fragmented workflow challenge—requiring repeated prompts across multiple tools without memory—directly connects to dark data accumulation through the multiplication of AI interactions and outputs.",
+      "crossReferences": ["khan-2025-beyond-automation", "li-2025-vibe-coding"]
+    },
+    {
+      "id": "sandhaus-2025-codesigning",
+      "citation": {
+        "authors": ["Sandhaus, H.", "Gu, Q.", "Parreira, M. T.", "Ju, W."],
+        "year": 2025,
+        "title": "Co-designing with transformers: Unpacking the complex role of GenAI in interactive system design education",
+        "venue": "Proceedings of DIS 2025",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "design-judgment"],
+      "methods": ["mixed-methods"],
+      "annotation": "Sandhaus, Gu, and colleagues identify four GenAI usage patterns in design education (Benchmark, Booster, Executor, Amplifier) and map them to the Double Diamond design process through a mixed-methods study with 17 graduate HCI students. They find that 'Executor' and 'Amplifier' patterns create highest risk for bypassing learning and critical reflection, that GenAI is most beneficial during the Develop phase but shows limited utility for Discovery and Reflection (mismatch with divergent thinking needs), and that students demonstrated attribution challenges—struggling to accurately recall their GenAI use, suggesting reduced metacognitive awareness. The Executor/Amplifier taxonomy describes exactly how AI enables productive-seeming output while bypassing evaluative judgment.",
+      "crossReferences": ["naik-2025-invisible", "walton-2026-judgment"]
+    },
+    {
+      "id": "tsao-2025-scoping",
+      "citation": {
+        "authors": ["Tsao, J.", "Liang, C. X.", "Nogues, C.", "Wong, A."],
+        "year": 2025,
+        "title": "Perceptions and integration of generative artificial intelligence in creative practices and industries: A scoping review and conceptual model",
+        "venue": "AI & Society",
+        "volume": "41",
+        "pages": "2259-2278"
+      },
+      "themes": ["ai-design-practice"],
+      "methods": ["review"],
+      "annotation": "Tsao and colleagues present a comprehensive scoping review mapping GenAI integration across four creative domains through PRISMA-ScR analysis of 57 papers (2022-2025). They propose a conceptual framework positioning attitudes along two dimensions: knowledge codifiability (tacit to explicit) and output materiality (physical to digital). Key findings include that career stage shapes attitudes (entry-level embrace, senior skepticism), all fields position GenAI in early-stage conceptualization rather than final production, and visual artists face 'erasure by obscurity' where AI output volume overwhelms human creation. The critical question raised—'How do we assess quality when quantity is unlimited?'—directly addresses the evaluation capacity being overwhelmed by AI output volume.",
+      "crossReferences": ["li-2024-ux-perceptions", "wang-2026-ai4ux"]
+    },
+    {
+      "id": "varanasi-2025-rivalry",
+      "citation": {
+        "authors": ["Varanasi, R. A.", "Wiesenfeld, B. M.", "Nov, O."],
+        "year": 2025,
+        "title": "AI rivalry as a craft: How resisting and embracing generative AI are reshaping the writing profession",
+        "venue": "Proceedings of CHI '25",
+        "publisher": "ACM"
+      },
+      "themes": ["ai-design-practice", "workflow-collaboration"],
+      "methods": ["qualitative"],
+      "annotation": "Varanasi and colleagues use Job Crafting theory to identify four strategies writing professionals employ in response to GAI through 25 semi-structured interviews (average 17 years experience). A key finding is that 'common metrics, like productivity and efficiency, are insufficient for assessing the value of human-driven and GAI-driven strategies.' They reveal hidden 'AI managerial labor'—extensive invisible work including prompt engineering, output verification, and error troubleshooting—and document professionals reducing 'the depth in research and the amount of iterations' due to market pressure for speed. This reveals how productivity metrics mask the invisible evaluation work AI creates while simultaneously documenting actual reduction in iteration depth when AI is adopted.",
+      "crossReferences": ["li-2025-vibe-coding", "palani-2024-evolving"]
+    },
+    {
+      "id": "wang-2026-ai4ux",
+      "citation": {
+        "authors": ["Wang, W.", "Yang, Y.", "Luan, Z."],
+        "year": 2026,
+        "title": "The role of designers in human-AI collaborative design: Capturing the new patterns in AI4UX framework",
+        "venue": "Design for Augmented Humanity",
+        "volume": "1",
+        "issue": "1",
+        "pages": "31-48"
+      },
+      "themes": ["ai-design-practice", "design-judgment"],
+      "methods": ["review"],
+      "annotation": "Wang and colleagues introduce the AI4UX framework—a 2x2 matrix capturing four domains where GenAI intersects with UX work. Through literature synthesis, they identify key cognitive concerns: 'design fixation, where AI outputs become implicit references, causing designers to fall into established thinking,' content homogeneity that 'intensifies over time, with prolonged reliance on AI diminishing independent problem-solving abilities,' and that 'GenAI boosts short-term creative performance but risks diminishing collective diversity' and long-term creative capacity. This synthesizes the dual trajectory—short-term gains masking long-term capacity erosion—providing a theoretical framework for why the 'illusion of iteration' is ultimately self-undermining.",
+      "crossReferences": ["wadinambiarachchi-2024-fixation", "kobiella-2026-constrained"]
+    },
+    {
+      "id": "zhu-2024-enterprise",
+      "citation": {
+        "authors": ["Zhu, Z.", "Lee, H.", "Pan, Y.", "Cai, P."],
+        "year": 2024,
+        "title": "AI assistance in enterprise UX design workflows: Enhancing design brief creation for designers",
+        "venue": "Frontiers in Artificial Intelligence",
+        "volume": "7",
+        "pages": "1404647"
+      },
+      "themes": ["ai-design-practice", "workflow-collaboration"],
+      "methods": ["experiment"],
+      "annotation": "Zhu and colleagues investigate how AI tools (specifically ChatGPT) impact enterprise UX designers' creation of design briefs through a two-phase within-subject experiment with 8 senior UX design experts (5+ years experience). Key quantitative findings: AI assistance reduced brief creation time by 49% (0.6h vs 1.2h) but decreased accuracy by 4.17% (4.6 vs 4.8). Qualitative findings reveal AI fabricates content when project data is large, produces 'mechanical content lacking personalization,' and shows 'insufficient automation' and 'poor priority judgment.' Designers shifted from 'contractor' (executor) to 'client' (directing AI) role. This provides concrete quantitative evidence of the iteration illusion—speed gains come at the cost of accuracy, requiring verification work that may negate efficiency benefits.",
+      "crossReferences": ["bilgram-2023-accelerating", "chen-2024-genui"]
+    },
+    {
+      "id": "rutherford-2025-human-experience",
+      "citation": {
+        "authors": ["Rutherford, D. (Cheatham, D.) et al."],
+        "year": 2025,
+        "title": "Developing human experience experts: Design education's process-centric response to generative AI",
+        "venue": "Conference paper"
+      },
+      "themes": ["design-judgment", "ai-design-practice"],
+      "methods": ["empirical"],
+      "annotation": "Rutherford/Cheatham and colleagues at Miami University argue that as AI handles technical production tasks, design education must shift from producing technical skills to developing 'human experience experts' who understand complex social contexts, anticipate consequences, and create meaningful interventions aligned with human needs. Through design-based research across 8 courses with 188 students (2023-2025), they find that 65% of students (28/43) initially focused only on personal impacts when analyzing AI consequences, demonstrating need for structured frameworks, and that AI tools excel at pattern recognition but cannot comprehend how design decisions impact human experiences across contexts. This directly supports the argument that AI-generated iteration creates an illusion of productive work while bypassing the contextual understanding that constitutes genuine design practice.",
+      "crossReferences": ["boling-2020-character", "tellez-2025-reflecting"]
+    },
+    {
+      "id": "tellez-2025-reflecting",
+      "citation": {
+        "authors": ["Tellez, F. A."],
+        "year": 2025,
+        "title": "Reflecting on the integration of generative AI in design education: Lessons from the field",
+        "venue": "Voces y Silencios: Revista Latinoamericana de Educacion",
+        "volume": "16",
+        "issue": "2",
+        "pages": "169-191"
+      },
+      "themes": ["ai-design-practice", "sustainability"],
+      "methods": ["qualitative"],
+      "annotation": "Fabio Andres Tellez documents three experiences integrating GenAI into design education through phenomenological reflective practice documenting personal creative exploration, faculty learning community, and an undergraduate digital design course with over 400 students (2022-2024). He finds that GenAI facilitated ideation and exploration but identifies the risk that students 'default to AI-generated outputs instead of engaging in deeper problem-solving,' with over-reliance potentially contributing to 'diminished human decision-making capabilities' and 'increased cognitive laziness.' Environmental sustainability concerns related to AI's high energy and water consumption are also noted. This provides evidence of the 'illusion' dynamic where rapid iteration via AI may mask reduced critical evaluation.",
+      "crossReferences": ["rutherford-2025-human-experience", "bearman-2024-evaluative"]
+    },
+    {
+      "id": "berthelot-2024-lca",
+      "citation": {
+        "authors": ["Berthelot, A.", "Caron, E.", "Jay, M.", "Lefevre, L."],
+        "year": 2024,
+        "title": "Estimating the environmental impact of Generative-AI services using an LCA-based methodology",
+        "venue": "Procedia CIRP",
+        "volume": "122",
+        "pages": "707-712"
+      },
+      "themes": ["sustainability"],
+      "methods": ["case-study"],
+      "annotation": "Berthelot and colleagues from INRIA and École Normale Supérieure de Lyon propose a comprehensive Life Cycle Assessment (LCA) methodology for evaluating the environmental impact of generative AI services, validated through a case study of Stable Diffusion. They find that one year of Stable Diffusion service generates approximately 360 tons of CO2 equivalent, impacts metal scarcity equivalent to producing 5,659 smartphones, and consumes 2.48 gigawatt-hours of energy. Critically, end-user terminals represent over 90% of impact on metal scarcity, and they warn against 'carbon tunnel vision'—focusing only on emissions while ignoring metal depletion and full energy footprint. This quantifies the environmental cost of AI generation at scale, providing concrete evidence for the sustainability dimension of unlimited iteration.",
+      "crossReferences": ["wu-2021-sustainable-ai", "xiao-2025-pathways"]
+    },
+    {
+      "id": "grimm-2019-dark-data",
+      "citation": {
+        "authors": ["Grimm, D. J."],
+        "year": 2019,
+        "title": "The dark data quandary",
+        "venue": "American University Law Review",
+        "volume": "68",
+        "issue": "3",
+        "pages": "761-821"
+      },
+      "themes": ["sustainability", "workflow-collaboration"],
+      "methods": ["legal-analysis"],
+      "annotation": "Daniel Grimm examines the legal and organizational challenges posed by 'dark data'—data that organizations collect and store but cannot readily analyze or understand, estimated at 80-93% of all organizational data. Through legal analysis examining HIPAA, FTC Act Section 5, and GDPR implications, he argues that the 'storage imperative'—organizations' tendency to hoard all data anticipating future analytics value—conflicts with legal requirements for data minimization and creates cascading compliance risks including invisible legal liability, cybersecurity vulnerabilities, and 'decision distortion.' This establishes 'dark data' as a category of unexamined accumulated data with hidden costs—directly applicable to AI-generated design artifacts that are created but never meaningfully evaluated.",
+      "crossReferences": ["sweeten-2018-hoarding", "van-bussel-2015-archiving"]
+    },
+    {
+      "id": "guidi-2024-burden",
+      "citation": {
+        "authors": ["Guidi, G.", "Dominici, F.", "Gilmour, J.", "Butler, K.", "Bell, E.", "Delaney, S.", "Bargagli-Stoffi, F. J."],
+        "year": 2024,
+        "title": "Environmental burden of United States data centers in the artificial intelligence era",
+        "venue": "arXiv preprint arXiv:2411.09786"
+      },
+      "themes": ["sustainability"],
+      "methods": ["empirical"],
+      "annotation": "Guidi and coauthors at Harvard T.H. Chan School of Public Health compiled detailed operating data on 2,132 US data centers between September 2023 and August 2024 to estimate electricity consumption, generation sources, and attributable emissions. Using a generation-weighted attributional method, they find data centers consumed 192.64 TWh (4.59% of total US electricity), 56% from fossil fuels, producing 105.59 million tons of CO2e with a carbon intensity of 548 gCO2e/kWh—48% above the US national average. This offers a recent, empirically grounded baseline for the physical infrastructure costs of data storage—every AI-generated iteration has measurable carbon costs.",
+      "crossReferences": ["wu-2021-sustainable-ai", "xiao-2025-pathways"]
+    },
+    {
+      "id": "preist-2016-cornucopian",
+      "citation": {
+        "authors": ["Preist, C.", "Schien, D.", "Blevis, E."],
+        "year": 2016,
+        "title": "Understanding and mitigating the effects of device and cloud service design decisions on the environmental footprint of digital infrastructure",
+        "venue": "Proceedings of CHI '16",
+        "pages": "1324-1337",
+        "publisher": "ACM"
+      },
+      "themes": ["sustainability"],
+      "methods": ["theoretical"],
+      "annotation": "Preist, Schien, and Blevis critically examine how current design practices for interactive devices and cloud services contribute to environmental impact, identifying the 'cornucopian paradigm'—ten implicit design principles driven by user-centered design values (personal, variety, instant, shareable, high quality, pervasive, continuous access, eternal, ephemeral, rich/cross-modal/ubiquitous) that collectively drive growth in digital infrastructure demand. They find that infrastructure can account for up to 85% of environmental impact of digital services, and propose the 'Rubric of Infrastructural Effects' (RoIE) to help designers consider infrastructure impacts. This establishes that user-centered design principles combine with business drivers to create unsustainable infrastructure growth—directly applicable to how AI tools enabling unlimited iteration embody cornucopian assumptions about 'free' generation.",
+      "crossReferences": ["wu-2021-sustainable-ai", "berthelot-2024-lca"]
+    },
+    {
+      "id": "sweeten-2018-hoarding",
+      "citation": {
+        "authors": ["Sweeten, G.", "Sillence, E.", "Neave, N."],
+        "year": 2018,
+        "title": "Digital hoarding behaviours: Underlying motivations and potential negative consequences",
+        "venue": "Computers in Human Behavior",
+        "volume": "85",
+        "pages": "54-60"
+      },
+      "themes": ["sustainability", "workflow-collaboration"],
+      "methods": ["empirical", "qualitative"],
+      "annotation": "Sweeten, Sillence, and Neave at Northumbria University present one of the first empirical studies to systematically investigate digital hoarding through an online questionnaire with 46 UK participants. They identify five barriers to digital data deletion: keeping data 'just in case' (most common), keeping data as evidence, laziness/time constraints, emotional attachment to data, and 'not my server—not my problem' attitude unique to workplace contexts with unlimited cloud storage. Negative consequences include impaired productivity, psychological stress/anxiety, cybersecurity vulnerabilities, and crossover with physical hoarding behaviors. This establishes the psychological dynamics that lead to data accumulation—the 'just in case' mentality and 'not my server' externalization apply directly to how designers might accumulate AI-generated iterations without evaluation.",
+      "crossReferences": ["grimm-2019-dark-data", "van-bussel-2015-archiving"]
+    },
+    {
+      "id": "van-bussel-2015-archiving",
+      "citation": {
+        "authors": ["van Bussel, G.-J.", "Smit, N.", "van de Pas, J."],
+        "year": 2015,
+        "title": "Digital archiving, green IT and environment: Deleting data to manage critical effects of the data deluge",
+        "venue": "Electronic Journal of Information Systems Evaluation",
+        "volume": "18",
+        "issue": "2",
+        "pages": "187-198"
+      },
+      "themes": ["sustainability", "workflow-collaboration"],
+      "methods": ["case-study"],
+      "annotation": "Van Bussel and colleagues propose the 'Green Archiving Model,' integrating Green IT practices with Digital Archiving theories to address the environmental impact of exponential data growth. Through exploratory case studies in a multinational trade corporation, they demonstrate that organizations can reduce stored data by approximately 45% and electricity costs by 35% through systematic application of Archival Retention Levels and retention schedules. They note that data storage capacity doubles every 40 months (~40% annual growth) and that 35% of headquarters storage was duplicate files. This provides a practical framework (archival appraisal principles) that could be applied to design file management, demonstrating that intentional deletion based on value assessment can significantly reduce environmental impact.",
+      "crossReferences": ["grimm-2019-dark-data", "sweeten-2018-hoarding"]
+    },
+    {
+      "id": "wu-2021-sustainable-ai",
+      "citation": {
+        "authors": ["Wu, C.-J.", "Raghavendra, R.", "Gupta, U.", "et al."],
+        "year": 2021,
+        "title": "Sustainable AI: Environmental implications, challenges and opportunities",
+        "venue": "arXiv preprint arXiv:2111.00364"
+      },
+      "themes": ["sustainability"],
+      "methods": ["case-study"],
+      "annotation": "Wu and 25 coauthors from Facebook AI provide the first comprehensive industry analysis of AI's environmental footprint, examining Data, Algorithms, and System Hardware across the ML lifecycle. Characterizing six production ML models, they find that AI infrastructure power capacity distributes roughly 10% to experimentation, 20% to training, and 70% to inference—highlighting that inference optimization has the largest potential impact. They demonstrate that hardware-software co-design can reduce operational carbon footprint by over 800x for language models, but warn of Jevon's Paradox: despite achieving 28.5% operational energy footprint reduction over two years, overall electricity demand continues to grow because efficiency improvements stimulate additional AI use. This quantifies how AI's exponential growth in all dimensions outpaces efficiency improvements, meaning more AI iterations will consume more resources regardless of per-iteration efficiency gains.",
+      "crossReferences": ["xiao-2025-pathways", "guidi-2024-burden"]
+    },
+    {
+      "id": "xiao-2025-pathways",
+      "citation": {
+        "authors": ["Xiao, T.", "Fuso Nerini, F.", "Matthews, H. D.", "Tavoni, M.", "You, F."],
+        "year": 2025,
+        "title": "Environmental impact and net-zero pathways for sustainable artificial intelligence servers in the USA",
+        "venue": "Nature Sustainability",
+        "volume": "8",
+        "issue": "12",
+        "pages": "1541-1553"
+      },
+      "themes": ["sustainability"],
+      "methods": ["empirical"],
+      "annotation": "Xiao and an international team present the most comprehensive analysis to date of AI's compound environmental impacts across energy, water, and carbon emissions. They project that AI servers in the United States could generate an annual water footprint ranging from 731 to 1,125 million m³ and additional annual carbon emissions from 24 to 44 Mt CO2-equivalent between 2024 and 2030. Critically, indirect water footprint contributes 71% of total water use (from electricity generation), and they conclude that 'the AI server industry is unlikely to meet its net-zero aspirations by 2030 without substantial reliance on highly uncertain carbon offset and water restoration mechanisms.' This demonstrates that the environmental costs of AI extend beyond carbon to include water scarcity—every AI generation draws on physical resources that cannot be infinitely expanded.",
+      "crossReferences": ["wu-2021-sustainable-ai", "berthelot-2024-lca"]
+    }
+  ]
+}
